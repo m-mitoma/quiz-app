@@ -24,7 +24,7 @@ react勉強学習後初めて作ったアプリ
 
 【苦労した点】
 
-githabpagesへのデプロイ
+githubpagesへのデプロイ
 
 【次回以降】
 
