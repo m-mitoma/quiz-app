@@ -18,10 +18,12 @@ VisualStudioCode,gh-pages(バージョン 6.3.0)
 
 【備考】
 
-react勉強学習後初めて作ったアプり
+react勉強学習後初めて作ったアプリ
 
 以前jQueryで似たようなUIを作ったことがあり実装しました。
 
 【苦労した点】
 githabpagesへのデプロイ
-次回以降のアプリからtypescriptを導入したい
+
+【次回以降】
+typescriptを導入したい
