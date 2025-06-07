@@ -1,8 +1,16 @@
-# React + Vite
+クイズアプリ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+URL 　https://m-mitoma.github.io/quiz-app/
 
-Currently, two official plugins are available:
+工数　 5時間
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+技術スタック　 React,Vite,ESLint
+
+【備考】
+
+react勉強学習後初めて作ったアプり
+
+以前jQueryで似たようなUIを作ったことがあり実装しました。
+
+【苦労した点】
+githabpagesへのデプロイ
