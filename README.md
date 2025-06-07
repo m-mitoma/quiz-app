@@ -1,14 +1,16 @@
 クイズアプリ
 
-URL 　https://m-mitoma.github.io/quiz-app/
+【URL】
 
-工数
+https://m-mitoma.github.io/quiz-app/
+
+【工数】
 
 平日の夜30分ずつ設計や使う技術の選定、実装手順を整理、
 
 土曜日5時間でコードを実装
 
-技術スタック
+【技術スタック】
 
 React(バージョン19.1.0),React Confetti (バージョン 6.4.0),Vite(バージョン 6.2.0)
 
@@ -24,7 +26,9 @@ react勉強学習後初めて作ったアプリ
 
 【苦労した点】
 
-実務ではAzureDevOpsを利用していますが、 GitHubPagesを用いたビルドからデプロイ、公開までの一連の流れを学べました。
+実務ではAzureDevOpsを利用していますが、
+ 
+GitHubPagesを用いたビルドからデプロイ公開までの一連の流れを学べました。
 
 【次回以降】
 
