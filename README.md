@@ -24,3 +24,4 @@ react勉強学習後初めて作ったアプり
 
 【苦労した点】
 githabpagesへのデプロイ
+次回以降のアプリからtypescriptを導入したい
