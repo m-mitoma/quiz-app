@@ -27,9 +27,9 @@ react勉強学習後初めて作ったアプリ
 【苦労した点】
 
 実務ではAzureDevOpsを利用していますが、
- 
+
 GitHubPagesを用いたビルドからデプロイ公開までの一連の流れを学べました。
 
 【次回以降】
 
-typescriptを導入したい
+TypeScriptを導入したい
