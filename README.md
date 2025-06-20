@@ -18,7 +18,7 @@ https://quiz-app-tan-gamma.vercel.app/
 
 フロントエンド: React, Vite
 
-デプロイ・インフラ: Vercel, GitHub Pages
+デプロイ・インフラ: Vercel
 
 バージョン管理: Git, GitHub
 
