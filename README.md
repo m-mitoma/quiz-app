@@ -14,15 +14,18 @@ https://quiz-app-tan-gamma.vercel.app/
 
 土曜日5時間でコードを実装
 
-【技術スタック】
 
-React(バージョン19.1.0),React Confetti (バージョン 6.4.0),Vite(バージョン 6.2.0)
+フロントエンド: React, Vite
 
-ESLint(バージョン 9.28.0),Prettier (バージョン 3.5.3),
+デプロイ・インフラ: Vercel, GitHub Pages
 
-Vercel,GitHub
+バージョン管理: Git, GitHub
 
-VisualStudioCode
+パッケージ管理: npm
+
+コード品質 / コードフォーマット: ESLint, Prettier
+
+コードエディタ: Visual Studio Code
 
 【実装上の工夫】
 
