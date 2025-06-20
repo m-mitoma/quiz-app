@@ -1,22 +1,18 @@
+// tsconfig.node.json
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"], // ここに "DOM" を含める
-    "allowJs": false,
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tsbuildinfo",
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "module": "ESNext",
+    "moduleResolution": "bundler", // または "node"
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "types": ["node"] // <-- ここに "node" を追加することもありますが、@types/nodeをインストールすれば通常不要
+    "types": ["node"] // ★ここが一番重要です★
   },
-  "include": ["src", "vite.config.ts"], // <-- vite.config.ts を含める
-  "references": [{ "path": "./tsconfig.node.json" }] // 必要に応じて
+  "include": [
+    "vite.config.ts" // ★vite.config.ts がここに含まれているか確認★
+    // "vitest.config.ts" // もしVitestを使っているなら
+  ]
 }
