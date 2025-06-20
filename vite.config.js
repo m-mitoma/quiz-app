@@ -1,8 +1,25 @@
+// vite.config.ts
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-const REPO_NAME = "/quiz-app/";
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: REPO_NAME,
+
+export default defineConfig(({ command }) => {
+  const isVercelProduction =
+    process.env.VERCEL_ENV === "production" || process.env.VERCEL_URL;
+
+  let base = "/"; // Vercelの本番デプロイ用（ルート）
+
+  if (command === "serve") {
+    // ローカル開発用
+    base = "/quiz-app/";
+  }
+
+  console.log(`Vite base path set to: ${base}`);
+
+  return {
+    plugins: [react()],
+    base: base, // ★Viteのベースパスを設定★
+    build: {
+      // outDir など、他のビルド設定
+    },
+  };
 });
