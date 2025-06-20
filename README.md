@@ -6,7 +6,7 @@ React基礎学習後初回1回目に作ったアプリです。
 
 【URL】
 
-https://m-mitoma.github.io/quiz-app/
+https://quiz-app-tan-gamma.vercel.app/
 
 【工数】
 
@@ -18,9 +18,11 @@ https://m-mitoma.github.io/quiz-app/
 
 React(バージョン19.1.0),React Confetti (バージョン 6.4.0),Vite(バージョン 6.2.0)
 
-ESLint(バージョン 9.28.0),Prettier (バージョン 3.5.3)
+ESLint(バージョン 9.28.0),Prettier (バージョン 3.5.3),
 
-VisualStudioCode,gh-pages(バージョン 6.3.0)
+Vercel,GitHub
+
+VisualStudioCode
 
 【実装上の工夫】
 
