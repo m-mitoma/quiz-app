@@ -14,6 +14,7 @@ https://quiz-app-tan-gamma.vercel.app/
 
 土曜日5時間でコードを実装
 
+【技術スタック】
 
 フロントエンド: React, Vite
 
